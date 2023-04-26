@@ -1,21 +1,79 @@
-.mainSection {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+body {
+    position: relative;
+    width: 1366px;
+    height: 704px;
+    background: #FFFFFF;
+    margin: 0; 
 }
+
 .backgroundImage {
     position: absolute;
+    width: 748px;
+    height: 704px;
+    left: 700px; /*talvez tirar*/
+    top: 0px; /*talvez tirar*/
+    /*margin: 0px 0px 120px 400px talvez botar isso*/
   }
 
+.infos {
+    position: absolute;
+    padding: 75px 75px 0px 75px;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    left: 65px;
+    top: 100px;
+}
+
 .texto {
-    position: relative;
-    text-align: center;
-    background-color: white;
-    padding: 50px;
-    border-radius: 45px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-sizing: border-box;
+    width: 548px;
+    height: 538px;
   }
+
+.texto h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-size: 34.7px;
+    line-height: 47px;
+    color: #000000;
+  }
+
+.explicacao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 10px 35px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+.boxBotao {
+    width: 220px;
+    height: 40px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoBotao {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.boxBotao:hover {
+    background-color: #333333;
+}
+
 
