@@ -8,30 +8,25 @@
     display: flex;
     background: #FFFFFF;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: stretch;
 }
 
 .backgroundImage {
     display: flex;
     width: 50%;
+    height: 100vh;
   }
 
 .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 80px;
     width: 50%;
 }
 
-
-.logo {
-    width: 90px;
-    height: 90px;
-    left: 65px;
-    top: 100px;
-}
-
 .texto {
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   }
 
 .texto h1 {
@@ -80,7 +75,11 @@
     }
 
     .infos {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px;
+    width: 100%;
     }
 }
 
