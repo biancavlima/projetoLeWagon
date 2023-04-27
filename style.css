@@ -54,25 +54,18 @@ body {
     color: #000000;
   }
 
-.boxBotao {
-    width: 220px;
-    height: 40px;
-    background: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.textoBotao {
+.botao {
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px 15px;
+    color: #FFFFFF;
     font-family: Verdana;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
-    line-height: 17px;
-    color: #FFFFFF;
 }
 
-.boxBotao:hover {
+.botao:hover {
     background-color: #333333;
 }
 
