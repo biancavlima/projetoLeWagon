@@ -1,23 +1,25 @@
-body {
-    position: relative;
-    width: 1366px;
-    height: 704px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
     background: #FFFFFF;
-    margin: 0; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .backgroundImage {
-    position: absolute;
-    width: 748px;
-    height: 704px;
-    left: 700px; /*talvez tirar*/
-    top: 0px; /*talvez tirar*/
-    /*margin: 0px 0px 120px 400px talvez botar isso*/
+    display: flex;
+    width: 50%;
   }
 
 .infos {
-    position: absolute;
-    padding: 75px 75px 0px 75px;
+    padding: 80px;
+    width: 50%;
 }
 
 
@@ -30,8 +32,6 @@ body {
 
 .texto {
     box-sizing: border-box;
-    width: 548px;
-    height: 538px;
   }
 
 .texto h1 {
@@ -39,14 +39,14 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
     font-style: normal;
-    font-size: 34.7px;
+    font-size: 35px;
     line-height: 47px;
     color: #000000;
   }
 
 .explicacao {
+    margin: 15px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 10px 35px 0px;
     font-style: normal;
     font-weight: 400;
     font-size: 13.8px;
@@ -65,8 +65,23 @@ body {
     font-size: 11px;
 }
 
+.boxBotao {
+    margin-top: 30px;
+}
+
 .botao:hover {
     background-color: #333333;
+}
+
+@media (max-width: 1260px) {
+
+    .backgroundImage {
+        display: none;
+    }
+
+    .infos {
+
+    }
 }
 
 
