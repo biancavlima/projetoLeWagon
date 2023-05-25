@@ -5,6 +5,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* LOGO ABERTURA */
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("./imagens/logoNoma.png") no-repeat center center rgba(255, 255, 255, 0.25);
+}
+
 /* MENU BOX */
 
 #menuIcon {
