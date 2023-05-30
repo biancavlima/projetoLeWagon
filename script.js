@@ -51,7 +51,7 @@ const showHideIcons = () => {
 
 icons.forEach(icon => {
   icon.addEventListener("click", () => {
-    var firstImgWidth = firstImg.clientWidth + 14;
+    var firstImgWidth = firstImg.clientWidth + 1;
     carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth ;
     setTimeout(() => showHideIcons(), 60);
   });
